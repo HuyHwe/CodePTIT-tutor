@@ -1,0 +1,57 @@
+{
+  "id": "trr1",
+  "name": "Toán rời rạc 1 (TRR1)",
+  "code_patterns": [
+    "TRR1_\\d{4}",
+    "LT\\d{3}"
+  ],
+  "sources": {
+    "problems_md": "TRR1 CodePTIT/De Bai.md",
+    "solutions_dir": "TRR1 CodePTIT",
+    "algorithms_dir": "TRR1_Bo_Thuat_Toan",
+    "theory_md": "Bộ thuật toán TRR1 (1).md"
+  },
+  "algorithm_overrides": {},
+  "topics": {
+    "TRR1_10": "Logic mệnh đề, tập hợp",
+    "TRR1_20": "Bài toán đếm (bù trừ, truy hồi, tổ hợp)",
+    "TRR1_30": "Liệt kê: phương pháp sinh, quay lui",
+    "TRR1_40": "Tối ưu: duyệt toàn bộ, nhánh cận",
+    "TRR1_50": "Nguyên lý Dirichlet",
+    "LT": "Tối ưu: duyệt toàn bộ"
+  },
+  "generators": {
+    "TRR1_1009": "reals2",
+    "TRR1_1010": "reals3",
+    "TRR1_1011": "reals3",
+    "TRR1_1017": "two_sets",
+    "TRR1_1018": "two_sets",
+    "TRR1_2002": "count_abkm",
+    "TRR1_2005": "int_2p18",
+    "TRR1_2009": "int_1e4",
+    "TRR1_2011": "n_k_50",
+    "TRR1_2014": "n_k_50",
+    "TRR1_2040": "n_s_50",
+    "TRR1_3006": "perm_prev",
+    "TRR1_3008": "comb_prev",
+    "TRR1_3011": "perm_next_t",
+    "TRR1_3015": "bits_next_t",
+    "TRR1_3016": "bits_next_t",
+    "TRR1_3024": "perm_fixed",
+    "TRR1_3025": "comb_nkt",
+    "TRR1_3026": "comb_nkt",
+    "TRR1_3027": "bits_fixed",
+    "TRR1_4001": "knapsack",
+    "TRR1_4003": "cost_matrix",
+    "TRR1_4004": "cost_matrix",
+    "TRR1_4008": "cost_matrix",
+    "TRR1_4009": "cost_matrix",
+    "TRR1_4007": "cost_matrix_tsp",
+    "LT004": "cost_matrix_tsp",
+    "TRR1_5001": "balls",
+    "TRR1_5005": "nmp",
+    "TRR1_5021": "nk_1e4",
+    "TRR1_5022": "n_k_50"
+  },
+  "theory_notes": {}
+}

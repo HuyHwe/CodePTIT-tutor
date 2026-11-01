@@ -1,0 +1,19 @@
+{
+ "courses": [
+  {
+   "id": "trr1",
+   "name": "Toán rời rạc 1 (TRR1)",
+   "code_patterns": [
+    "TRR1_\\d{4}",
+    "LT\\d{3}"
+   ]
+  },
+  {
+   "id": "trr2",
+   "name": "Toán rời rạc 2 (TRR2) – Lý thuyết đồ thị",
+   "code_patterns": [
+    "TRR\\d{4}"
+   ]
+  }
+ ]
+}

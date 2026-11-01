@@ -1,0 +1,773 @@
+{
+ "course": "trr1",
+ "name": "Toán rời rạc 1 (TRR1)",
+ "algorithms": [
+  {
+   "id": "1.1",
+   "name": "Thuat toan sinh",
+   "notes": "algorithms/1.1_Thuat_toan_sinh.md"
+  },
+  {
+   "id": "1.2",
+   "name": "Sinh xau nhi phan",
+   "cpp": "algorithms/1.2_Sinh_xau_nhi_phan.cpp",
+   "notes": "algorithms/1.2_Sinh_xau_nhi_phan.md"
+  },
+  {
+   "id": "1.3",
+   "name": "Sinh to hop",
+   "cpp": "algorithms/1.3_Sinh_to_hop.cpp",
+   "notes": "algorithms/1.3_Sinh_to_hop.md"
+  },
+  {
+   "id": "1.4",
+   "name": "Sinh hoan vi",
+   "cpp": "algorithms/1.4_Sinh_hoan_vi.cpp",
+   "notes": "algorithms/1.4_Sinh_hoan_vi.md"
+  },
+  {
+   "id": "1.5",
+   "name": "Thuat toan quay lui",
+   "notes": "algorithms/1.5_Thuat_toan_quay_lui.md"
+  },
+  {
+   "id": "1.6",
+   "name": "Quay lui nhi phan",
+   "cpp": "algorithms/1.6_Quay_lui_nhi_phan.cpp",
+   "notes": "algorithms/1.6_Quay_lui_nhi_phan.md"
+  },
+  {
+   "id": "1.7",
+   "name": "Quay lui to hop",
+   "cpp": "algorithms/1.7_Quay_lui_to_hop.cpp",
+   "notes": "algorithms/1.7_Quay_lui_to_hop.md"
+  },
+  {
+   "id": "1.8",
+   "name": "Quay lui hoan vi",
+   "cpp": "algorithms/1.8_Quay_lui_hoan_vi.cpp",
+   "notes": "algorithms/1.8_Quay_lui_hoan_vi.md"
+  },
+  {
+   "id": "2.1",
+   "name": "Thuat toan duyet toan bo",
+   "notes": "algorithms/2.1_Thuat_toan_duyet_toan_bo.md"
+  },
+  {
+   "id": "2.2",
+   "name": "Duyet toan bo cai tui",
+   "cpp": "algorithms/2.2_Duyet_toan_bo_cai_tui.cpp",
+   "notes": "algorithms/2.2_Duyet_toan_bo_cai_tui.md"
+  },
+  {
+   "id": "2.3",
+   "name": "Duyet toan bo du lich",
+   "cpp": "algorithms/2.3_Duyet_toan_bo_du_lich.cpp",
+   "notes": "algorithms/2.3_Duyet_toan_bo_du_lich.md"
+  },
+  {
+   "id": "2.4",
+   "name": "Duyet toan bo phan viec",
+   "cpp": "algorithms/2.4_Duyet_toan_bo_phan_viec.cpp",
+   "notes": "algorithms/2.4_Duyet_toan_bo_phan_viec.md"
+  },
+  {
+   "id": "2.5",
+   "name": "Thuat toan nhanh can",
+   "notes": "algorithms/2.5_Thuat_toan_nhanh_can.md"
+  },
+  {
+   "id": "2.6",
+   "name": "Nhanh can cai tui",
+   "cpp": "algorithms/2.6_Nhanh_can_cai_tui.cpp",
+   "notes": "algorithms/2.6_Nhanh_can_cai_tui.md"
+  },
+  {
+   "id": "2.7",
+   "name": "Nhanh can du lich",
+   "cpp": "algorithms/2.7_Nhanh_can_du_lich.cpp",
+   "notes": "algorithms/2.7_Nhanh_can_du_lich.md"
+  },
+  {
+   "id": "2.8",
+   "name": "Nhanh can phan viec",
+   "cpp": "algorithms/2.8_Nhanh_can_phan_viec.cpp",
+   "notes": "algorithms/2.8_Nhanh_can_phan_viec.md"
+  }
+ ],
+ "problems": [
+  {
+   "code": "LT004",
+   "title": "Duyệt toàn bộ 03 (Bài toán người du lịch)",
+   "name": "Duyet toan bo 03 (Bai toan nguoi du lich)",
+   "topic": "Tối ưu: duyệt toàn bộ",
+   "summary": [
+    "Duyet toan bo 03 (Bai toan nguoi du lich)",
+    "Ap dung 2.3. Duyet toan bo: nguoi du lich, luu them TAT CA phuong an toi uu",
+    "Nhap: n, roi ma tran chi phi n x n"
+   ],
+   "problem": "problems/LT004.md",
+   "solution": "solutions/LT004.cpp",
+   "algorithms": [
+    "2.3"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "cost_matrix_tsp",
+   "keywords": "lt004 duyet toan bo 03 (bai toan nguoi du lich) duyet toan bo 03 (bai toan nguoi du lich) toi uu: duyet toan bo duyet toan bo 03 (bai toan nguoi du lich) ap dung 2.3. duyet toan bo: nguoi du lich, luu them tat ca phuong an toi uu nhap: n, roi ma tran chi phi n x n"
+  },
+  {
+   "code": "TRR1_1009",
+   "title": "Phương trình 01",
+   "name": "Phuong trinh 01",
+   "topic": "Logic mệnh đề, tập hợp",
+   "summary": [
+    "Phuong trinh 01",
+    "p = \"ax + b = 0 co it nhat mot nghiem thuc am\""
+   ],
+   "problem": "problems/TRR1_1009.md",
+   "solution": "solutions/TRR1_1009.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "reals2",
+   "keywords": "trr1_1009 phuong trinh 01 phuong trinh 01 logic menh de, tap hop phuong trinh 01 p = \"ax + b = 0 co it nhat mot nghiem thuc am\""
+  },
+  {
+   "code": "TRR1_1010",
+   "title": "Phương trình 02",
+   "name": "Phuong trinh 02",
+   "topic": "Logic mệnh đề, tập hợp",
+   "summary": [
+    "Phuong trinh 02",
+    "p = \"ax^2 + bx + c = 0 co it nhat mot nghiem thuc duong\""
+   ],
+   "problem": "problems/TRR1_1010.md",
+   "solution": "solutions/TRR1_1010.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "reals3",
+   "keywords": "trr1_1010 phuong trinh 02 phuong trinh 02 logic menh de, tap hop phuong trinh 02 p = \"ax^2 + bx + c = 0 co it nhat mot nghiem thuc duong\""
+  },
+  {
+   "code": "TRR1_1011",
+   "title": "Phương trình 03",
+   "name": "Phuong trinh 03",
+   "topic": "Logic mệnh đề, tập hợp",
+   "summary": [
+    "Phuong trinh 03",
+    "p = \"ax^4 + bx^2 + c = 0 co it nhat mot nghiem thuc\"",
+    "Dat y = x^2: chi can phuong trinh theo y co nghiem y >= 0"
+   ],
+   "problem": "problems/TRR1_1011.md",
+   "solution": "solutions/TRR1_1011.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "reals3",
+   "keywords": "trr1_1011 phuong trinh 03 phuong trinh 03 logic menh de, tap hop phuong trinh 03 p = \"ax^4 + bx^2 + c = 0 co it nhat mot nghiem thuc\" dat y = x^2: chi can phuong trinh theo y co nghiem y >= 0"
+  },
+  {
+   "code": "TRR1_1017",
+   "title": "Tập hợp 01 (Hợp của hai tập hợp)",
+   "name": "Tap hop 01",
+   "topic": "Logic mệnh đề, tập hợp",
+   "summary": [
+    "Tap hop 01 (Hop cua hai tap hop)",
+    "Nhap: n, roi 2 xau nhi phan bieu dien tap A va B"
+   ],
+   "problem": "problems/TRR1_1017.md",
+   "solution": "solutions/TRR1_1017.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "two_sets",
+   "keywords": "trr1_1017 tap hop 01 (hop cua hai tap hop) tap hop 01 logic menh de, tap hop tap hop 01 (hop cua hai tap hop) nhap: n, roi 2 xau nhi phan bieu dien tap a va b"
+  },
+  {
+   "code": "TRR1_1018",
+   "title": "Tập hợp 02 (Giao của hai tập hợp)",
+   "name": "Tap hop 02",
+   "topic": "Logic mệnh đề, tập hợp",
+   "summary": [
+    "Tap hop 02 (Giao cua hai tap hop)",
+    "Nhap: n, roi 2 xau nhi phan bieu dien tap A va B"
+   ],
+   "problem": "problems/TRR1_1018.md",
+   "solution": "solutions/TRR1_1018.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "two_sets",
+   "keywords": "trr1_1018 tap hop 02 (giao cua hai tap hop) tap hop 02 logic menh de, tap hop tap hop 02 (giao cua hai tap hop) nhap: n, roi 2 xau nhi phan bieu dien tap a va b"
+  },
+  {
+   "code": "TRR1_2002",
+   "title": "Đếm số 02",
+   "name": "Dem so 02",
+   "topic": "Bài toán đếm (bù trừ, truy hồi, tổ hợp)",
+   "summary": [
+    "Dem so 02",
+    "Nguyen ly bu tru: |boi k hoac m| = |boi k| + |boi m| - |boi BCNN(k, m)|"
+   ],
+   "problem": "problems/TRR1_2002.md",
+   "solution": "solutions/TRR1_2002.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "count_abkm",
+   "keywords": "trr1_2002 dem so 02 dem so 02 bai toan dem (bu tru, truy hoi, to hop) dem so 02 nguyen ly bu tru: |boi k hoac m| = |boi k| + |boi m| - |boi bcnn(k, m)|"
+  },
+  {
+   "code": "TRR1_2005",
+   "title": "Đếm số hình vuông",
+   "name": "Dem so hinh vuong",
+   "topic": "Bài toán đếm (bù trừ, truy hồi, tổ hợp)",
+   "summary": [
+    "Dem so hinh vuong",
+    "Chon cac canh nho nhat 1, 2, ..., t sao cho 1^2 + 2^2 + ... + t^2 <= n"
+   ],
+   "problem": "problems/TRR1_2005.md",
+   "solution": "solutions/TRR1_2005.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "int_2p18",
+   "keywords": "trr1_2005 dem so hinh vuong dem so hinh vuong bai toan dem (bu tru, truy hoi, to hop) dem so hinh vuong chon cac canh nho nhat 1, 2, ..., t sao cho 1^2 + 2^2 + ... + t^2 <= n"
+  },
+  {
+   "code": "TRR1_2009",
+   "title": "Đếm phân số",
+   "name": "Dem phan so",
+   "topic": "Bài toán đếm (bù trừ, truy hồi, tổ hợp)",
+   "summary": [
+    "Dem phan so",
+    "Moi phan so a/b toi gian (1 <= a <= b) ung voi a nguyen to cung nhau voi b",
+    "=> t = 1 (phan so 0/1) + phi(1) + phi(2) + ... + phi(n)"
+   ],
+   "problem": "problems/TRR1_2009.md",
+   "solution": "solutions/TRR1_2009.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "int_1e4",
+   "keywords": "trr1_2009 dem phan so dem phan so bai toan dem (bu tru, truy hoi, to hop) dem phan so moi phan so a/b toi gian (1 <= a <= b) ung voi a nguyen to cung nhau voi b => t = 1 (phan so 0/1) + phi(1) + phi(2) + ... + phi(n)"
+  },
+  {
+   "code": "TRR1_2011",
+   "title": "Xâu nhị phân 01",
+   "name": "Xau nhi phan 01",
+   "topic": "Bài toán đếm (bù trừ, truy hồi, tổ hợp)",
+   "summary": [
+    "Xau nhi phan 01",
+    "Dem xau nhi phan do dai n KHONG chua k chu so 0 lien tiep",
+    "F[i] = so xau hop le do dai i",
+    "i < k : moi xau deu hop le      -> F[i] = 2^i",
+    "i = k : chi bo xau 00...0       -> F[i] = 2^k - 1",
+    "i > k : xau ket thuc bang 1, 10, 100, ..., 10..0 (k-1 so 0)",
+    "-> F[i] = F[i-1] + F[i-2] + ... + F[i-k]"
+   ],
+   "problem": "problems/TRR1_2011.md",
+   "solution": "solutions/TRR1_2011.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "n_k_50",
+   "keywords": "trr1_2011 xau nhi phan 01 xau nhi phan 01 bai toan dem (bu tru, truy hoi, to hop) xau nhi phan 01 dem xau nhi phan do dai n khong chua k chu so 0 lien tiep f[i] = so xau hop le do dai i i < k : moi xau deu hop le      -> f[i] = 2^i i = k : chi bo xau 00...0       -> f[i] = 2^k - 1 i > k : xau ket thuc bang 1, 10, 100, ..., 10..0 (k-1 so 0) -> f[i] = f[i-1] + f[i-2] + ... + f[i-k]"
+  },
+  {
+   "code": "TRR1_2014",
+   "title": "Xâu nhị phân 04",
+   "name": "Xau nhi phan 04",
+   "topic": "Bài toán đếm (bù trừ, truy hồi, tổ hợp)",
+   "summary": [
+    "Xau nhi phan 04",
+    "Dem xau nhi phan do dai n CO chua k chu so 1 lien tiep",
+    "t = 2^n - (so xau KHONG chua k so 1 lien tiep)",
+    "F[i] tinh giong TRR1_2011 (doi vai tro 0 <-> 1)"
+   ],
+   "problem": "problems/TRR1_2014.md",
+   "solution": "solutions/TRR1_2014.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "n_k_50",
+   "keywords": "trr1_2014 xau nhi phan 04 xau nhi phan 04 bai toan dem (bu tru, truy hoi, to hop) xau nhi phan 04 dem xau nhi phan do dai n co chua k chu so 1 lien tiep t = 2^n - (so xau khong chua k so 1 lien tiep) f[i] tinh giong trr1_2011 (doi vai tro 0 <-> 1)"
+  },
+  {
+   "code": "TRR1_2040",
+   "title": "Xâu nhị phân 14",
+   "name": "Xau nhi phan 14",
+   "topic": "Bài toán đếm (bù trừ, truy hồi, tổ hợp)",
+   "summary": [
+    "Xau nhi phan 14",
+    "Xau do dai n co tong chu so = s <=> chon s vi tri dat so 1: t = C(n, s)"
+   ],
+   "problem": "problems/TRR1_2040.md",
+   "solution": "solutions/TRR1_2040.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "n_s_50",
+   "keywords": "trr1_2040 xau nhi phan 14 xau nhi phan 14 bai toan dem (bu tru, truy hoi, to hop) xau nhi phan 14 xau do dai n co tong chu so = s <=> chon s vi tri dat so 1: t = c(n, s)"
+  },
+  {
+   "code": "TRR1_3006",
+   "title": "Liệt kê hoán vị trước 01",
+   "name": "Liet ke hoan vi truoc 01",
+   "topic": "Liệt kê: phương pháp sinh, quay lui",
+   "summary": [
+    "Liet ke hoan vi truoc 01",
+    "Ap dung 1.4. Sinh hoan vi, lam nguoc lai de tim hoan vi lien ke TRUOC"
+   ],
+   "problem": "problems/TRR1_3006.md",
+   "solution": "solutions/TRR1_3006.cpp",
+   "algorithms": [
+    "1.4"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "perm_prev",
+   "keywords": "trr1_3006 liet ke hoan vi truoc 01 liet ke hoan vi truoc 01 liet ke: phuong phap sinh, quay lui liet ke hoan vi truoc 01 ap dung 1.4. sinh hoan vi, lam nguoc lai de tim hoan vi lien ke truoc"
+  },
+  {
+   "code": "TRR1_3008",
+   "title": "Liệt kê tổ hợp trước 01",
+   "name": "Liet ke to hop truoc 01",
+   "topic": "Liệt kê: phương pháp sinh, quay lui",
+   "summary": [
+    "Liet ke to hop truoc 01",
+    "Ap dung 1.3. Sinh to hop, lam nguoc lai de tim to hop lien ke TRUOC"
+   ],
+   "problem": "problems/TRR1_3008.md",
+   "solution": "solutions/TRR1_3008.cpp",
+   "algorithms": [
+    "1.3"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "comb_prev",
+   "keywords": "trr1_3008 liet ke to hop truoc 01 liet ke to hop truoc 01 liet ke: phuong phap sinh, quay lui liet ke to hop truoc 01 ap dung 1.3. sinh to hop, lam nguoc lai de tim to hop lien ke truoc"
+  },
+  {
+   "code": "TRR1_3011",
+   "title": "Liệt kê một phần hoán vị",
+   "name": "Liet ke mot phan hoan vi",
+   "topic": "Liệt kê: phương pháp sinh, quay lui",
+   "summary": [
+    "Liet ke mot phan hoan vi",
+    "Ap dung 1.4. Sinh hoan vi: goi Sinh() t lan"
+   ],
+   "problem": "problems/TRR1_3011.md",
+   "solution": "solutions/TRR1_3011.cpp",
+   "algorithms": [
+    "1.4"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "perm_next_t",
+   "keywords": "trr1_3011 liet ke mot phan hoan vi liet ke mot phan hoan vi liet ke: phuong phap sinh, quay lui liet ke mot phan hoan vi ap dung 1.4. sinh hoan vi: goi sinh() t lan"
+  },
+  {
+   "code": "TRR1_3015",
+   "title": "Liệt kê một phần xâu nhị phân sử dụng phương pháp sinh thuận",
+   "name": "Liet ke mot phan xau nhi phan su dung phuong phap sinh thuan",
+   "topic": "Liệt kê: phương pháp sinh, quay lui",
+   "summary": [
+    "Liet ke mot phan xau nhi phan su dung phuong phap sinh thuan",
+    "Ap dung 1.2. Sinh xau nhi phan: goi Sinh() t lan"
+   ],
+   "problem": "problems/TRR1_3015.md",
+   "solution": "solutions/TRR1_3015.cpp",
+   "algorithms": [
+    "1.2"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "bits_next_t",
+   "keywords": "trr1_3015 liet ke mot phan xau nhi phan su dung phuong phap sinh thuan liet ke mot phan xau nhi phan su dung phuong phap sinh thuan liet ke: phuong phap sinh, quay lui liet ke mot phan xau nhi phan su dung phuong phap sinh thuan ap dung 1.2. sinh xau nhi phan: goi sinh() t lan"
+  },
+  {
+   "code": "TRR1_3016",
+   "title": "Liệt kê một phần xâu nhị phân sử dụng phương pháp sinh ngược",
+   "name": "Liet ke mot phan xau nhi phan su dung phuong phap sinh nguoc",
+   "topic": "Liệt kê: phương pháp sinh, quay lui",
+   "summary": [
+    "Liet ke mot phan xau nhi phan su dung phuong phap sinh nguoc",
+    "Ap dung 1.2. Sinh xau nhi phan, doi vai tro 0 <-> 1 de sinh theo thu tu nguoc"
+   ],
+   "problem": "problems/TRR1_3016.md",
+   "solution": "solutions/TRR1_3016.cpp",
+   "algorithms": [
+    "1.2"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "bits_next_t",
+   "keywords": "trr1_3016 liet ke mot phan xau nhi phan su dung phuong phap sinh nguoc liet ke mot phan xau nhi phan su dung phuong phap sinh nguoc liet ke: phuong phap sinh, quay lui liet ke mot phan xau nhi phan su dung phuong phap sinh nguoc ap dung 1.2. sinh xau nhi phan, doi vai tro 0 <-> 1 de sinh theo thu tu nguoc"
+  },
+  {
+   "code": "TRR1_3024",
+   "title": "Liệt kê hoán vị có điều kiện sử dụng phương pháp quay lui",
+   "name": "Liet ke hoan vi co dieu kien su dung phuong phap quay lui",
+   "topic": "Liệt kê: phương pháp sinh, quay lui",
+   "summary": [
+    "Liet ke hoan vi co dieu kien su dung phuong phap quay lui",
+    "Ap dung 1.8. Quay lui hoan vi, them dieu kien k vi tri cho truoc"
+   ],
+   "problem": "problems/TRR1_3024.md",
+   "solution": "solutions/TRR1_3024.cpp",
+   "algorithms": [
+    "1.8"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "perm_fixed",
+   "keywords": "trr1_3024 liet ke hoan vi co dieu kien su dung phuong phap quay lui liet ke hoan vi co dieu kien su dung phuong phap quay lui liet ke: phuong phap sinh, quay lui liet ke hoan vi co dieu kien su dung phuong phap quay lui ap dung 1.8. quay lui hoan vi, them dieu kien k vi tri cho truoc"
+  },
+  {
+   "code": "TRR1_3025",
+   "title": "Liệt kê tổ hợp có điều kiện sử dụng phương pháp quay lui (Dạng 1)",
+   "name": "Liet ke to hop co dieu kien su dung phuong phap quay lui (Dang 1)",
+   "topic": "Liệt kê: phương pháp sinh, quay lui",
+   "summary": [
+    "Liet ke to hop co dieu kien su dung phuong phap quay lui (Dang 1)",
+    "Ap dung 1.7. Quay lui to hop, them dieu kien X[1] = t"
+   ],
+   "problem": "problems/TRR1_3025.md",
+   "solution": "solutions/TRR1_3025.cpp",
+   "algorithms": [
+    "1.7"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "comb_nkt",
+   "keywords": "trr1_3025 liet ke to hop co dieu kien su dung phuong phap quay lui (dang 1) liet ke to hop co dieu kien su dung phuong phap quay lui (dang 1) liet ke: phuong phap sinh, quay lui liet ke to hop co dieu kien su dung phuong phap quay lui (dang 1) ap dung 1.7. quay lui to hop, them dieu kien x[1] = t"
+  },
+  {
+   "code": "TRR1_3026",
+   "title": "Liệt kê tổ hợp có điều kiện sử dụng phương pháp quay lui (Dạng 2)",
+   "name": "Liet ke to hop co dieu kien su dung phuong phap quay lui (Dang 2)",
+   "topic": "Liệt kê: phương pháp sinh, quay lui",
+   "summary": [
+    "Liet ke to hop co dieu kien su dung phuong phap quay lui (Dang 2)",
+    "Ap dung 1.7. Quay lui to hop, them dieu kien X[k] = t"
+   ],
+   "problem": "problems/TRR1_3026.md",
+   "solution": "solutions/TRR1_3026.cpp",
+   "algorithms": [
+    "1.7"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "comb_nkt",
+   "keywords": "trr1_3026 liet ke to hop co dieu kien su dung phuong phap quay lui (dang 2) liet ke to hop co dieu kien su dung phuong phap quay lui (dang 2) liet ke: phuong phap sinh, quay lui liet ke to hop co dieu kien su dung phuong phap quay lui (dang 2) ap dung 1.7. quay lui to hop, them dieu kien x[k] = t"
+  },
+  {
+   "code": "TRR1_3027",
+   "title": "Liệt kê xâu nhị phân có điều kiện sử dụng phương pháp quay lui",
+   "name": "Liet ke xau nhi phan co dieu kien su dung phuong phap quay lui",
+   "topic": "Liệt kê: phương pháp sinh, quay lui",
+   "summary": [
+    "Liet ke xau nhi phan co dieu kien su dung phuong phap quay lui",
+    "Ap dung 1.6. Quay lui xau nhi phan, them dieu kien k vi tri cho truoc"
+   ],
+   "problem": "problems/TRR1_3027.md",
+   "solution": "solutions/TRR1_3027.cpp",
+   "algorithms": [
+    "1.6"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "bits_fixed",
+   "keywords": "trr1_3027 liet ke xau nhi phan co dieu kien su dung phuong phap quay lui liet ke xau nhi phan co dieu kien su dung phuong phap quay lui liet ke: phuong phap sinh, quay lui liet ke xau nhi phan co dieu kien su dung phuong phap quay lui ap dung 1.6. quay lui xau nhi phan, them dieu kien k vi tri cho truoc"
+  },
+  {
+   "code": "TRR1_4001",
+   "title": "Bài toán cái túi 01",
+   "name": "Bai toan cai tui 01",
+   "topic": "Tối ưu: duyệt toàn bộ, nhánh cận",
+   "summary": [
+    "Bai toan cai tui 01",
+    "Ap dung 2.2. Duyet toan bo: cai tui 0/1",
+    "Nhap: n b, roi n cap a c (trong luong, gia tri) cua tung do vat"
+   ],
+   "problem": "problems/TRR1_4001.md",
+   "solution": "solutions/TRR1_4001.cpp",
+   "algorithms": [
+    "2.2"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "knapsack",
+   "keywords": "trr1_4001 bai toan cai tui 01 bai toan cai tui 01 toi uu: duyet toan bo, nhanh can bai toan cai tui 01 ap dung 2.2. duyet toan bo: cai tui 0/1 nhap: n b, roi n cap a c (trong luong, gia tri) cua tung do vat"
+  },
+  {
+   "code": "TRR1_4003",
+   "title": "Bài toán phân việc 01",
+   "name": "Bai toan phan viec 01",
+   "topic": "Tối ưu: duyệt toàn bộ, nhánh cận",
+   "summary": [
+    "Bai toan phan viec 01",
+    "Ap dung 2.4. Duyet toan bo: phan viec (tong thoi gian nho nhat)",
+    "Nhap: n, roi ma tran thoi gian n x n"
+   ],
+   "problem": "problems/TRR1_4003.md",
+   "solution": "solutions/TRR1_4003.cpp",
+   "algorithms": [
+    "2.4"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "cost_matrix",
+   "keywords": "trr1_4003 bai toan phan viec 01 bai toan phan viec 01 toi uu: duyet toan bo, nhanh can bai toan phan viec 01 ap dung 2.4. duyet toan bo: phan viec (tong thoi gian nho nhat) nhap: n, roi ma tran thoi gian n x n"
+  },
+  {
+   "code": "TRR1_4004",
+   "title": "Bài toán phân việc 02",
+   "name": "Bai toan phan viec 02",
+   "topic": "Tối ưu: duyệt toàn bộ, nhánh cận",
+   "summary": [
+    "Bai toan phan viec 02",
+    "Ap dung 2.4. Duyet toan bo: phan viec, doi sang tim tong nang suat LON NHAT",
+    "Nhap: n, roi ma tran nang suat n x n"
+   ],
+   "problem": "problems/TRR1_4004.md",
+   "solution": "solutions/TRR1_4004.cpp",
+   "algorithms": [
+    "2.4"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "cost_matrix",
+   "keywords": "trr1_4004 bai toan phan viec 02 bai toan phan viec 02 toi uu: duyet toan bo, nhanh can bai toan phan viec 02 ap dung 2.4. duyet toan bo: phan viec, doi sang tim tong nang suat lon nhat nhap: n, roi ma tran nang suat n x n"
+  },
+  {
+   "code": "TRR1_4007",
+   "title": "Bài toán người du lịch 02",
+   "name": "Bai toan nguoi du lich 02",
+   "topic": "Tối ưu: duyệt toàn bộ, nhánh cận",
+   "summary": [
+    "Bai toan nguoi du lich 02",
+    "Ap dung 2.7. Nhanh can: nguoi du lich",
+    "Nhap: n, roi ma tran chi phi n x n"
+   ],
+   "problem": "problems/TRR1_4007.md",
+   "solution": "solutions/TRR1_4007.cpp",
+   "algorithms": [
+    "2.7"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "cost_matrix_tsp",
+   "keywords": "trr1_4007 bai toan nguoi du lich 02 bai toan nguoi du lich 02 toi uu: duyet toan bo, nhanh can bai toan nguoi du lich 02 ap dung 2.7. nhanh can: nguoi du lich nhap: n, roi ma tran chi phi n x n"
+  },
+  {
+   "code": "TRR1_4008",
+   "title": "Bài toán phân việc 03",
+   "name": "Bai toan phan viec 03",
+   "topic": "Tối ưu: duyệt toàn bộ, nhánh cận",
+   "summary": [
+    "Bai toan phan viec 03",
+    "Ap dung 2.8. Nhanh can: phan viec (tong thoi gian nho nhat)",
+    "Nhap: n, roi ma tran thoi gian n x n"
+   ],
+   "problem": "problems/TRR1_4008.md",
+   "solution": "solutions/TRR1_4008.cpp",
+   "algorithms": [
+    "2.8"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "cost_matrix",
+   "keywords": "trr1_4008 bai toan phan viec 03 bai toan phan viec 03 toi uu: duyet toan bo, nhanh can bai toan phan viec 03 ap dung 2.8. nhanh can: phan viec (tong thoi gian nho nhat) nhap: n, roi ma tran thoi gian n x n"
+  },
+  {
+   "code": "TRR1_4009",
+   "title": "Bài toán phân việc 04",
+   "name": "Bai toan phan viec 04",
+   "topic": "Tối ưu: duyệt toàn bộ, nhánh cận",
+   "summary": [
+    "Bai toan phan viec 04",
+    "Ap dung 2.8. Nhanh can: phan viec, doi sang tim tong nang suat LON NHAT",
+    "Nhap: n, roi ma tran nang suat n x n"
+   ],
+   "problem": "problems/TRR1_4009.md",
+   "solution": "solutions/TRR1_4009.cpp",
+   "algorithms": [
+    "2.8"
+   ],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "cost_matrix",
+   "keywords": "trr1_4009 bai toan phan viec 04 bai toan phan viec 04 toi uu: duyet toan bo, nhanh can bai toan phan viec 04 ap dung 2.8. nhanh can: phan viec, doi sang tim tong nang suat lon nhat nhap: n, roi ma tran nang suat n x n"
+  },
+  {
+   "code": "TRR1_5001",
+   "title": "Các quả cầu",
+   "name": "Cac qua cau",
+   "topic": "Nguyên lý Dirichlet",
+   "summary": [
+    "Cac qua cau",
+    "Nguyen ly Dirichlet: co m * n loai qua cau (mau x kich thuoc)",
+    "Xau nhat moi loai lay t - 1 qua => can m * n * (t - 1) + 1 qua"
+   ],
+   "problem": "problems/TRR1_5001.md",
+   "solution": "solutions/TRR1_5001.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "balls",
+   "keywords": "trr1_5001 cac qua cau cac qua cau nguyen ly dirichlet cac qua cau nguyen ly dirichlet: co m * n loai qua cau (mau x kich thuoc) xau nhat moi loai lay t - 1 qua => can m * n * (t - 1) + 1 qua"
+  },
+  {
+   "code": "TRR1_5005",
+   "title": "Chọn số 03",
+   "name": "Chon so 03",
+   "topic": "Nguyên lý Dirichlet",
+   "summary": [
+    "Chon so 03",
+    "Nguyen ly Dirichlet: xau nhat la chon het cac so co so du p,",
+    "chon them 1 so nua thi chac chan co so du khac p => t = (so luong so du p) + 1",
+    "So luong so du p dem trong doan [0, n - 1] (giu nhu loi giai da nop)"
+   ],
+   "problem": "problems/TRR1_5005.md",
+   "solution": "solutions/TRR1_5005.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "nmp",
+   "keywords": "trr1_5005 chon so 03 chon so 03 nguyen ly dirichlet chon so 03 nguyen ly dirichlet: xau nhat la chon het cac so co so du p, chon them 1 so nua thi chac chan co so du khac p => t = (so luong so du p) + 1 so luong so du p dem trong doan [0, n - 1] (giu nhu loi giai da nop)"
+  },
+  {
+   "code": "TRR1_5021",
+   "title": "Chọn cặp số 08",
+   "name": "Chon cap so 08",
+   "topic": "Nguyên lý Dirichlet",
+   "summary": [
+    "Chon cap so 08",
+    "Nguyen ly Dirichlet: xau nhat la chon het cac cap (x, y) co x * y KHONG chia het cho 4,",
+    "sau do chon them k cap nua => t = (so cap xau) + k"
+   ],
+   "problem": "problems/TRR1_5021.md",
+   "solution": "solutions/TRR1_5021.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "nk_1e4",
+   "keywords": "trr1_5021 chon cap so 08 chon cap so 08 nguyen ly dirichlet chon cap so 08 nguyen ly dirichlet: xau nhat la chon het cac cap (x, y) co x * y khong chia het cho 4, sau do chon them k cap nua => t = (so cap xau) + k"
+  },
+  {
+   "code": "TRR1_5022",
+   "title": "Chọn xâu nhị phần 08",
+   "name": "Chon xau nhi phan 08",
+   "topic": "Nguyên lý Dirichlet",
+   "summary": [
+    "Chon xau nhi phan 08",
+    "Nguyen ly Dirichlet: xau nhat la chon het cac xau KHONG co dung k so 1,",
+    "chon them 1 xau nua => t = 2^n - C(n, k) + 1"
+   ],
+   "problem": "problems/TRR1_5022.md",
+   "solution": "solutions/TRR1_5022.cpp",
+   "algorithms": [],
+   "io": {
+    "type": "stdin"
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "n_k_50",
+   "keywords": "trr1_5022 chon xau nhi phan 08 chon xau nhi phan 08 nguyen ly dirichlet chon xau nhi phan 08 nguyen ly dirichlet: xau nhat la chon het cac xau khong co dung k so 1, chon them 1 xau nua => t = 2^n - c(n, k) + 1"
+  }
+ ]
+}

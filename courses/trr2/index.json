@@ -1,0 +1,1296 @@
+{
+ "course": "trr2",
+ "name": "Toán rời rạc 2 (TRR2) – Lý thuyết đồ thị",
+ "algorithms": [
+  {
+   "id": "0",
+   "name": "Quy ước & khung nhập liệu chung",
+   "notes": "algorithms/conventions.md"
+  },
+  {
+   "id": "1.1",
+   "name": "DFS de quy",
+   "cpp": "algorithms/1.1_DFS_de_quy.cpp",
+   "notes": "algorithms/1.1_DFS_de_quy.md"
+  },
+  {
+   "id": "1.2",
+   "name": "DFS dung ngan xep",
+   "notes": "algorithms/1.2_DFS_dung_ngan_xep.md"
+  },
+  {
+   "id": "1.3",
+   "name": "BFS",
+   "cpp": "algorithms/1.3_BFS.cpp",
+   "notes": "algorithms/1.3_BFS.md"
+  },
+  {
+   "id": "1.4",
+   "name": "Dem TPLT",
+   "cpp": "algorithms/1.4_Dem_TPLT.cpp",
+   "notes": "algorithms/1.4_Dem_TPLT.md"
+  },
+  {
+   "id": "1.5",
+   "name": "Tim duong di s t",
+   "cpp": "algorithms/1.5_Tim_duong_di_s_t.cpp",
+   "notes": "algorithms/1.5_Tim_duong_di_s_t.md"
+  },
+  {
+   "id": "1.6",
+   "name": "Kosaraju",
+   "cpp": "algorithms/1.6_Kosaraju.cpp",
+   "notes": "algorithms/1.6_Kosaraju.md"
+  },
+  {
+   "id": "1.7",
+   "name": "Kiem tra lien thong manh",
+   "cpp": "algorithms/1.7_Kiem_tra_lien_thong_manh.cpp",
+   "notes": "algorithms/1.7_Kiem_tra_lien_thong_manh.md"
+  },
+  {
+   "id": "1.8",
+   "name": "Dinh tru",
+   "cpp": "algorithms/1.8_Dinh_tru.cpp",
+   "notes": "algorithms/1.8_Dinh_tru.md"
+  },
+  {
+   "id": "1.9",
+   "name": "Canh cau",
+   "cpp": "algorithms/1.9_Canh_cau.cpp",
+   "notes": "algorithms/1.9_Canh_cau.md"
+  },
+  {
+   "id": "1.10",
+   "name": "Dinh chieu duoc",
+   "cpp": "algorithms/1.10_Dinh_chieu_duoc.cpp",
+   "notes": "algorithms/1.10_Dinh_chieu_duoc.md"
+  },
+  {
+   "id": "2.1.1",
+   "name": "Kiem tra Euler vo huong",
+   "cpp": "algorithms/2.1.1_Kiem_tra_Euler_vo_huong.cpp",
+   "notes": "algorithms/2.1.1_Kiem_tra_Euler_vo_huong.md"
+  },
+  {
+   "id": "2.1.2",
+   "name": "Kiem tra Euler co huong",
+   "cpp": "algorithms/2.1.2_Kiem_tra_Euler_co_huong.cpp",
+   "notes": "algorithms/2.1.2_Kiem_tra_Euler_co_huong.md"
+  },
+  {
+   "id": "2.2",
+   "name": "Tim chu trinh Euler",
+   "cpp": "algorithms/2.2_Tim_chu_trinh_Euler.cpp",
+   "notes": "algorithms/2.2_Tim_chu_trinh_Euler.md"
+  },
+  {
+   "id": "2.3",
+   "name": "Chu trinh Hamilton",
+   "cpp": "algorithms/2.3_Chu_trinh_Hamilton.cpp",
+   "notes": "algorithms/2.3_Chu_trinh_Hamilton.md"
+  },
+  {
+   "id": "3.1",
+   "name": "Dijkstra",
+   "cpp": "algorithms/3.1_Dijkstra.cpp",
+   "notes": "algorithms/3.1_Dijkstra.md"
+  },
+  {
+   "id": "3.2",
+   "name": "Bellman Ford",
+   "cpp": "algorithms/3.2_Bellman_Ford.cpp",
+   "notes": "algorithms/3.2_Bellman_Ford.md"
+  },
+  {
+   "id": "3.3",
+   "name": "Floyd",
+   "cpp": "algorithms/3.3_Floyd.cpp",
+   "notes": "algorithms/3.3_Floyd.md"
+  },
+  {
+   "id": "4.1",
+   "name": "Cay khung DFS",
+   "cpp": "algorithms/4.1_Cay_khung_DFS.cpp",
+   "notes": "algorithms/4.1_Cay_khung_DFS.md"
+  },
+  {
+   "id": "4.2",
+   "name": "Cay khung BFS",
+   "cpp": "algorithms/4.2_Cay_khung_BFS.cpp",
+   "notes": "algorithms/4.2_Cay_khung_BFS.md"
+  },
+  {
+   "id": "4.3",
+   "name": "Kruskal",
+   "cpp": "algorithms/4.3_Kruskal.cpp",
+   "notes": "algorithms/4.3_Kruskal.md"
+  },
+  {
+   "id": "4.4",
+   "name": "Prim",
+   "cpp": "algorithms/4.4_Prim.cpp",
+   "notes": "algorithms/4.4_Prim.md"
+  },
+  {
+   "id": "4.5",
+   "name": "Cay khung lon nhat",
+   "notes": "algorithms/4.5_Cay_khung_lon_nhat.md"
+  },
+  {
+   "id": "5.1",
+   "name": "Ford Fulkerson",
+   "cpp": "algorithms/5.1_Ford_Fulkerson.cpp",
+   "notes": "algorithms/5.1_Ford_Fulkerson.md"
+  }
+ ],
+ "problems": [
+  {
+   "code": "TRR1001",
+   "title": "1.1 Đồ thị",
+   "name": "Ma Tran Ke sang DS Canh",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi vo huong cho bang ma tran ke",
+    "t = 1: in bac cac dinh; t = 2: in danh sach canh"
+   ],
+   "problem": "problems/TRR1001.md",
+   "solution": "solutions/TRR1001.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_matrix_ud",
+   "keywords": "trr1001 1.1 do thi ma tran ke sang ds canh bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi vo huong cho bang ma tran ke t = 1: in bac cac dinh; t = 2: in danh sach canh danh sach"
+  },
+  {
+   "code": "TRR1002",
+   "title": "1.2 Đồ thị",
+   "name": "Ma Tran Ke sang DS Ke",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi vo huong cho bang ma tran ke",
+    "t = 1: in bac cac dinh; t = 2: in danh sach ke"
+   ],
+   "problem": "problems/TRR1002.md",
+   "solution": "solutions/TRR1002.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_matrix_ud",
+   "keywords": "trr1002 1.2 do thi ma tran ke sang ds ke bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi vo huong cho bang ma tran ke t = 1: in bac cac dinh; t = 2: in danh sach ke danh sach"
+  },
+  {
+   "code": "TRR1003",
+   "title": "1.3 Đồ thị",
+   "name": "Ma Tran Ke sang MT Lien Thuoc",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi vo huong cho bang ma tran ke",
+    "t = 1: in bac cac dinh; t = 2: in ma tran lien thuoc"
+   ],
+   "problem": "problems/TRR1003.md",
+   "solution": "solutions/TRR1003.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_matrix_ud",
+   "keywords": "trr1003 1.3 do thi ma tran ke sang mt lien thuoc bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi vo huong cho bang ma tran ke t = 1: in bac cac dinh; t = 2: in ma tran lien thuoc ma tran"
+  },
+  {
+   "code": "TRR1004",
+   "title": "1.4 Đồ thị",
+   "name": "DS Canh sang Ma Tran Ke",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi vo huong cho bang danh sach canh",
+    "t = 1: in bac cac dinh; t = 2: in ma tran ke"
+   ],
+   "problem": "problems/TRR1004.md",
+   "solution": "solutions/TRR1004.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_edges_ud",
+   "keywords": "trr1004 1.4 do thi ds canh sang ma tran ke bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi vo huong cho bang danh sach canh t = 1: in bac cac dinh; t = 2: in ma tran ke danh sach"
+  },
+  {
+   "code": "TRR1005",
+   "title": "1.5 Đồ thị",
+   "name": "DS Canh sang DS Ke",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi vo huong cho bang danh sach canh",
+    "t = 1: in bac cac dinh; t = 2: in danh sach ke"
+   ],
+   "problem": "problems/TRR1005.md",
+   "solution": "solutions/TRR1005.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_edges_ud",
+   "keywords": "trr1005 1.5 do thi ds canh sang ds ke bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi vo huong cho bang danh sach canh t = 1: in bac cac dinh; t = 2: in danh sach ke danh sach"
+  },
+  {
+   "code": "TRR1006",
+   "title": "1.6 Đồ thị",
+   "name": "DS Canh sang MT Lien Thuoc",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi vo huong cho bang danh sach canh",
+    "t = 1: in bac cac dinh; t = 2: in ma tran lien thuoc"
+   ],
+   "problem": "problems/TRR1006.md",
+   "solution": "solutions/TRR1006.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_edges_ud",
+   "keywords": "trr1006 1.6 do thi ds canh sang mt lien thuoc bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi vo huong cho bang danh sach canh t = 1: in bac cac dinh; t = 2: in ma tran lien thuoc danh sach ma tran"
+  },
+  {
+   "code": "TRR1007",
+   "title": "1.7 Đồ thị",
+   "name": "DS Ke sang Ma Tran Ke",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi vo huong cho bang danh sach ke",
+    "t = 1: in bac cac dinh; t = 2: in ma tran ke"
+   ],
+   "problem": "problems/TRR1007.md",
+   "solution": "solutions/TRR1007.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [
+    "test goc trong de ghi input dang danh sach canh, sai voi de bai -> doi sang danh sach ke"
+   ],
+   "generator": "rep_adjlist_ud",
+   "keywords": "trr1007 1.7 do thi ds ke sang ma tran ke bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi vo huong cho bang danh sach ke t = 1: in bac cac dinh; t = 2: in ma tran ke danh sach"
+  },
+  {
+   "code": "TRR1008",
+   "title": "1.8 Đồ thị",
+   "name": "DS Ke sang DS Canh",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi vo huong cho bang danh sach ke",
+    "t = 1: in bac cac dinh; t = 2: in danh sach canh"
+   ],
+   "problem": "problems/TRR1008.md",
+   "solution": "solutions/TRR1008.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [
+    "test goc trong de ghi input dang danh sach canh, sai voi de bai -> doi sang danh sach ke"
+   ],
+   "generator": "rep_adjlist_ud",
+   "keywords": "trr1008 1.8 do thi ds ke sang ds canh bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi vo huong cho bang danh sach ke t = 1: in bac cac dinh; t = 2: in danh sach canh danh sach"
+  },
+  {
+   "code": "TRR1009",
+   "title": "1.9 Đồ thị",
+   "name": "DS Ke sang MT Lien Thuoc",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi vo huong cho bang danh sach ke",
+    "t = 1: in bac cac dinh; t = 2: in ma tran lien thuoc"
+   ],
+   "problem": "problems/TRR1009.md",
+   "solution": "solutions/TRR1009.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [
+    "test goc trong de ghi input dang danh sach canh, sai voi de bai -> doi sang danh sach ke"
+   ],
+   "generator": "rep_adjlist_ud",
+   "keywords": "trr1009 1.9 do thi ds ke sang mt lien thuoc bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi vo huong cho bang danh sach ke t = 1: in bac cac dinh; t = 2: in ma tran lien thuoc danh sach ma tran"
+  },
+  {
+   "code": "TRR1010",
+   "title": "1.10 Đồ thị",
+   "name": "MT Trong So sang DS Canh TS",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi vo huong co trong so cho bang ma tran trong so",
+    "t = 1: in bac cac dinh; t = 2: in danh sach canh kem trong so"
+   ],
+   "problem": "problems/TRR1010.md",
+   "solution": "solutions/TRR1010.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_wmatrix_ud",
+   "keywords": "trr1010 1.10 do thi mt trong so sang ds canh ts bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi vo huong co trong so cho bang ma tran trong so t = 1: in bac cac dinh; t = 2: in danh sach canh kem trong so danh sach ma tran trong so"
+  },
+  {
+   "code": "TRR1011",
+   "title": "1.11 Đồ thị",
+   "name": "DS Canh TS sang MT Trong So",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi vo huong co trong so cho bang danh sach canh kem trong so",
+    "t = 1: in bac cac dinh; t = 2: in ma tran trong so"
+   ],
+   "problem": "problems/TRR1011.md",
+   "solution": "solutions/TRR1011.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [
+    "de goc ghi o (3,4) = 0, nhung khong co canh 3-4 nen dung phai la 10000 nhu o (4,3)"
+   ],
+   "generator": "rep_wedges_ud",
+   "keywords": "trr1011 1.11 do thi ds canh ts sang mt trong so bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi vo huong co trong so cho bang danh sach canh kem trong so t = 1: in bac cac dinh; t = 2: in ma tran trong so danh sach ma tran trong so"
+  },
+  {
+   "code": "TRR1012",
+   "title": "1.12 Đồ thị",
+   "name": "Co Huong Ma Tran Ke sang DS Canh",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi co huong cho bang ma tran ke",
+    "t = 1: in ban bac vao, ban bac ra; t = 2: in danh sach canh"
+   ],
+   "problem": "problems/TRR1012.md",
+   "solution": "solutions/TRR1012.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_matrix_d",
+   "keywords": "trr1012 1.12 do thi co huong ma tran ke sang ds canh bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi co huong cho bang ma tran ke t = 1: in ban bac vao, ban bac ra; t = 2: in danh sach canh danh sach"
+  },
+  {
+   "code": "TRR1013",
+   "title": "1.13 Đồ thị",
+   "name": "Co Huong Ma Tran Ke sang DS Ke",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi co huong cho bang ma tran ke",
+    "t = 1: in ban bac vao, ban bac ra; t = 2: in danh sach ke"
+   ],
+   "problem": "problems/TRR1013.md",
+   "solution": "solutions/TRR1013.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_matrix_d",
+   "keywords": "trr1013 1.13 do thi co huong ma tran ke sang ds ke bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi co huong cho bang ma tran ke t = 1: in ban bac vao, ban bac ra; t = 2: in danh sach ke danh sach"
+  },
+  {
+   "code": "TRR1014",
+   "title": "1.14 Đồ thị",
+   "name": "Co Huong Ma Tran Ke sang MT Lien Thuoc",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi co huong cho bang ma tran ke",
+    "t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran lien thuoc"
+   ],
+   "problem": "problems/TRR1014.md",
+   "solution": "solutions/TRR1014.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_matrix_d",
+   "keywords": "trr1014 1.14 do thi co huong ma tran ke sang mt lien thuoc bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi co huong cho bang ma tran ke t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran lien thuoc ma tran"
+  },
+  {
+   "code": "TRR1015",
+   "title": "1.15 Đồ thị",
+   "name": "Co Huong DS Canh sang Ma Tran Ke",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi co huong cho bang danh sach canh",
+    "t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran ke"
+   ],
+   "problem": "problems/TRR1015.md",
+   "solution": "solutions/TRR1015.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_edges_d",
+   "keywords": "trr1015 1.15 do thi co huong ds canh sang ma tran ke bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi co huong cho bang danh sach canh t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran ke danh sach"
+  },
+  {
+   "code": "TRR1016",
+   "title": "1.16 Đồ thị",
+   "name": "Co Huong DS Canh sang DS Ke",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi co huong cho bang danh sach canh",
+    "t = 1: in ban bac vao, ban bac ra; t = 2: in danh sach ke"
+   ],
+   "problem": "problems/TRR1016.md",
+   "solution": "solutions/TRR1016.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_edges_d",
+   "keywords": "trr1016 1.16 do thi co huong ds canh sang ds ke bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi co huong cho bang danh sach canh t = 1: in ban bac vao, ban bac ra; t = 2: in danh sach ke danh sach"
+  },
+  {
+   "code": "TRR1017",
+   "title": "1.17 Đồ thị",
+   "name": "Co Huong DS Canh sang MT Lien Thuoc",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi co huong cho bang danh sach canh",
+    "t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran lien thuoc"
+   ],
+   "problem": "problems/TRR1017.md",
+   "solution": "solutions/TRR1017.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_edges_d",
+   "keywords": "trr1017 1.17 do thi co huong ds canh sang mt lien thuoc bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi co huong cho bang danh sach canh t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran lien thuoc danh sach ma tran"
+  },
+  {
+   "code": "TRR1018",
+   "title": "1.18 Đồ thị",
+   "name": "Co Huong DS Ke sang Ma Tran Ke",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi co huong cho bang danh sach ke",
+    "t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran ke"
+   ],
+   "problem": "problems/TRR1018.md",
+   "solution": "solutions/TRR1018.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_adjlist_d",
+   "keywords": "trr1018 1.18 do thi co huong ds ke sang ma tran ke bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi co huong cho bang danh sach ke t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran ke danh sach"
+  },
+  {
+   "code": "TRR1019",
+   "title": "1.19 Đồ thị",
+   "name": "Co Huong DS Ke sang DS Canh",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi co huong cho bang danh sach ke",
+    "t = 1: in ban bac vao, ban bac ra; t = 2: in danh sach canh"
+   ],
+   "problem": "problems/TRR1019.md",
+   "solution": "solutions/TRR1019.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_adjlist_d",
+   "keywords": "trr1019 1.19 do thi co huong ds ke sang ds canh bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi co huong cho bang danh sach ke t = 1: in ban bac vao, ban bac ra; t = 2: in danh sach canh danh sach"
+  },
+  {
+   "code": "TRR1020",
+   "title": "1.20 Đồ thị",
+   "name": "Co Huong DS Ke sang MT Lien Thuoc",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi co huong cho bang danh sach ke",
+    "t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran lien thuoc"
+   ],
+   "problem": "problems/TRR1020.md",
+   "solution": "solutions/TRR1020.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_adjlist_d",
+   "keywords": "trr1020 1.20 do thi co huong ds ke sang mt lien thuoc bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi co huong cho bang danh sach ke t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran lien thuoc danh sach ma tran"
+  },
+  {
+   "code": "TRR1021",
+   "title": "1.21 Đồ thị",
+   "name": "Co Huong MT Trong So sang DS Canh TS",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi co huong co trong so cho bang ma tran trong so",
+    "t = 1: in ban bac vao, ban bac ra; t = 2: in danh sach canh kem trong so"
+   ],
+   "problem": "problems/TRR1021.md",
+   "solution": "solutions/TRR1021.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_wmatrix_d",
+   "keywords": "trr1021 1.21 do thi co huong mt trong so sang ds canh ts bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi co huong co trong so cho bang ma tran trong so t = 1: in ban bac vao, ban bac ra; t = 2: in danh sach canh kem trong so danh sach ma tran trong so"
+  },
+  {
+   "code": "TRR1022",
+   "title": "1.22 Đồ thị",
+   "name": "Co Huong DS Canh TS sang MT Trong So",
+   "topic": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+   "summary": [
+    "Do thi co huong co trong so cho bang danh sach canh kem trong so",
+    "t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran trong so"
+   ],
+   "problem": "problems/TRR1022.md",
+   "solution": "solutions/TRR1022.cpp",
+   "algorithms": [
+    "0"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DT.INP"
+    ],
+    "out": [
+     "DT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "rep_wedges_d",
+   "keywords": "trr1022 1.22 do thi co huong ds canh ts sang mt trong so bieu dien do thi (ma tran ke, danh sach canh, danh sach ke, ma tran lien thuoc, trong so) do thi co huong co trong so cho bang danh sach canh kem trong so t = 1: in ban bac vao, ban bac ra; t = 2: in ma tran trong so danh sach ma tran trong so"
+  },
+  {
+   "code": "TRR2001",
+   "title": "2.1 Đường đi",
+   "name": "Duong di DFS",
+   "topic": "DFS/BFS: đường đi, liên thông, đỉnh trụ, cạnh cầu",
+   "summary": [
+    "Cho ma tran ke va hai dinh u, v",
+    "t = 1: dem so duong di do dai 2 tu u den v; t = 2: tim duong di u -> v bang DFS"
+   ],
+   "problem": "problems/TRR2001.md",
+   "solution": "solutions/TRR2001.cpp",
+   "algorithms": [
+    "1.1",
+    "1.5"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "TK.INP"
+    ],
+    "out": [
+     "TK.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "path_tuv",
+   "keywords": "trr2001 2.1 duong di duong di dfs dfs/bfs: duong di, lien thong, dinh tru, canh cau cho ma tran ke va hai dinh u, v t = 1: dem so duong di do dai 2 tu u den v; t = 2: tim duong di u -> v bang dfs"
+  },
+  {
+   "code": "TRR2002",
+   "title": "2.2 Đường đi",
+   "name": "Duong di BFS",
+   "topic": "DFS/BFS: đường đi, liên thông, đỉnh trụ, cạnh cầu",
+   "summary": [
+    "Cho ma tran ke va hai dinh u, v",
+    "t = 1: dem so duong di do dai 2 tu u den v; t = 2: tim duong di u -> v bang BFS"
+   ],
+   "problem": "problems/TRR2002.md",
+   "solution": "solutions/TRR2002.cpp",
+   "algorithms": [
+    "1.3",
+    "1.5"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "TK.INP"
+    ],
+    "out": [
+     "TK.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "path_tuv",
+   "keywords": "trr2002 2.2 duong di duong di bfs dfs/bfs: duong di, lien thong, dinh tru, canh cau cho ma tran ke va hai dinh u, v t = 1: dem so duong di do dai 2 tu u den v; t = 2: tim duong di u -> v bang bfs"
+  },
+  {
+   "code": "TRR2009",
+   "title": "2.9 Liên thông",
+   "name": "TPLT DFS",
+   "topic": "DFS/BFS: đường đi, liên thông, đỉnh trụ, cạnh cầu",
+   "summary": [
+    "Tim cac thanh phan lien thong cua do thi vo huong bang DFS"
+   ],
+   "problem": "problems/TRR2009.md",
+   "solution": "solutions/TRR2009.cpp",
+   "algorithms": [
+    "1.1",
+    "1.4"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "TK.INP"
+    ],
+    "out": [
+     "TK.OUT"
+    ]
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "matrix_ud",
+   "keywords": "trr2009 2.9 lien thong tplt dfs dfs/bfs: duong di, lien thong, dinh tru, canh cau tim cac thanh phan lien thong cua do thi vo huong bang dfs thanh phan lien thong"
+  },
+  {
+   "code": "TRR2012",
+   "title": "2.12 Liên thông",
+   "name": "TPLT BFS",
+   "topic": "DFS/BFS: đường đi, liên thông, đỉnh trụ, cạnh cầu",
+   "summary": [
+    "Tim cac thanh phan lien thong cua do thi vo huong bang BFS"
+   ],
+   "problem": "problems/TRR2012.md",
+   "solution": "solutions/TRR2012.cpp",
+   "algorithms": [
+    "1.3",
+    "1.4"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "TK.INP"
+    ],
+    "out": [
+     "TK.OUT"
+    ]
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "matrix_ud",
+   "keywords": "trr2012 2.12 lien thong tplt bfs dfs/bfs: duong di, lien thong, dinh tru, canh cau tim cac thanh phan lien thong cua do thi vo huong bang bfs thanh phan lien thong"
+  },
+  {
+   "code": "TRR2015",
+   "title": "2.15 Liên thông",
+   "name": "Lien thong manh yeu",
+   "topic": "DFS/BFS: đường đi, liên thông, đỉnh trụ, cạnh cầu",
+   "summary": [
+    "Xac dinh tinh lien thong cua do thi co huong bang DFS",
+    "In 1 = lien thong manh, 2 = chi lien thong yeu, 0 = khong lien thong"
+   ],
+   "problem": "problems/TRR2015.md",
+   "solution": "solutions/TRR2015.cpp",
+   "algorithms": [
+    "1.7",
+    "1.6",
+    "2.1.2"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "TK.INP"
+    ],
+    "out": [
+     "TK.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "matrix_d",
+   "keywords": "trr2015 2.15 lien thong lien thong manh yeu dfs/bfs: duong di, lien thong, dinh tru, canh cau xac dinh tinh lien thong cua do thi co huong bang dfs in 1 = lien thong manh, 2 = chi lien thong yeu, 0 = khong lien thong"
+  },
+  {
+   "code": "TRR2021",
+   "title": "2.21 Đỉnh trụ",
+   "name": "Dinh tru DFS",
+   "topic": "DFS/BFS: đường đi, liên thông, đỉnh trụ, cạnh cầu",
+   "summary": [
+    "Tim cac dinh tru cua do thi vo huong bang DFS"
+   ],
+   "problem": "problems/TRR2021.md",
+   "solution": "solutions/TRR2021.cpp",
+   "algorithms": [
+    "1.8",
+    "1.4",
+    "1.1"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "TK.INP"
+    ],
+    "out": [
+     "TK.OUT"
+    ]
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "matrix_ud",
+   "keywords": "trr2021 2.21 dinh tru dinh tru dfs dfs/bfs: duong di, lien thong, dinh tru, canh cau tim cac dinh tru cua do thi vo huong bang dfs"
+  },
+  {
+   "code": "TRR2024",
+   "title": "2.24 Đỉnh trụ",
+   "name": "Dinh tru BFS",
+   "topic": "DFS/BFS: đường đi, liên thông, đỉnh trụ, cạnh cầu",
+   "summary": [
+    "Tim cac dinh tru cua do thi vo huong bang BFS"
+   ],
+   "problem": "problems/TRR2024.md",
+   "solution": "solutions/TRR2024.cpp",
+   "algorithms": [
+    "1.8",
+    "1.4",
+    "1.3"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "TK.INP"
+    ],
+    "out": [
+     "TK.OUT"
+    ]
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "matrix_ud",
+   "keywords": "trr2024 2.24 dinh tru dinh tru bfs dfs/bfs: duong di, lien thong, dinh tru, canh cau tim cac dinh tru cua do thi vo huong bang bfs"
+  },
+  {
+   "code": "TRR2027",
+   "title": "2.27 Cạnh cầu",
+   "name": "Canh cau DFS",
+   "topic": "DFS/BFS: đường đi, liên thông, đỉnh trụ, cạnh cầu",
+   "summary": [
+    "Tim cac canh cau cua do thi vo huong bang DFS"
+   ],
+   "problem": "problems/TRR2027.md",
+   "solution": "solutions/TRR2027.cpp",
+   "algorithms": [
+    "1.9",
+    "1.4",
+    "1.1"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "TK.INP"
+    ],
+    "out": [
+     "TK.OUT"
+    ]
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "matrix_ud",
+   "keywords": "trr2027 2.27 canh cau canh cau dfs dfs/bfs: duong di, lien thong, dinh tru, canh cau tim cac canh cau cua do thi vo huong bang dfs"
+  },
+  {
+   "code": "TRR2030",
+   "title": "2.30 Cạnh cầu",
+   "name": "Canh cau BFS",
+   "topic": "DFS/BFS: đường đi, liên thông, đỉnh trụ, cạnh cầu",
+   "summary": [
+    "Tim cac canh cau cua do thi vo huong bang BFS"
+   ],
+   "problem": "problems/TRR2030.md",
+   "solution": "solutions/TRR2030.cpp",
+   "algorithms": [
+    "1.9",
+    "1.4",
+    "1.3"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "TK.INP"
+    ],
+    "out": [
+     "TK.OUT"
+    ]
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "matrix_ud",
+   "keywords": "trr2030 2.30 canh cau canh cau bfs dfs/bfs: duong di, lien thong, dinh tru, canh cau tim cac canh cau cua do thi vo huong bang bfs"
+  },
+  {
+   "code": "TRR3001",
+   "title": "3.1 Chu trình Euler",
+   "name": "Euler vo huong",
+   "topic": "Chu trình Euler, Hamilton",
+   "summary": [
+    "Do thi vo huong cho bang ma tran ke",
+    "t = 1: kiem tra Euler (1) / nua Euler (2) / khong (0); t = 2: in chu trinh Euler bat dau tu u"
+   ],
+   "problem": "problems/TRR3001.md",
+   "solution": "solutions/TRR3001.cpp",
+   "algorithms": [
+    "2.1.1",
+    "2.2"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "CT.INP"
+    ],
+    "out": [
+     "CT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "euler_ud",
+   "keywords": "trr3001 3.1 chu trinh euler euler vo huong chu trinh euler, hamilton do thi vo huong cho bang ma tran ke t = 1: kiem tra euler (1) / nua euler (2) / khong (0); t = 2: in chu trinh euler bat dau tu u"
+  },
+  {
+   "code": "TRR3004",
+   "title": "3.4 Chu trình Euler",
+   "name": "Euler co huong",
+   "topic": "Chu trình Euler, Hamilton",
+   "summary": [
+    "Do thi co huong cho bang ma tran ke",
+    "t = 1: kiem tra Euler (1) / nua Euler (2) / khong (0); t = 2: in chu trinh Euler bat dau tu u"
+   ],
+   "problem": "problems/TRR3004.md",
+   "solution": "solutions/TRR3004.cpp",
+   "algorithms": [
+    "2.1.2",
+    "2.2"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "CT.INP"
+    ],
+    "out": [
+     "CT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "euler_d",
+   "keywords": "trr3004 3.4 chu trinh euler euler co huong chu trinh euler, hamilton do thi co huong cho bang ma tran ke t = 1: kiem tra euler (1) / nua euler (2) / khong (0); t = 2: in chu trinh euler bat dau tu u"
+  },
+  {
+   "code": "TRR3007",
+   "title": "3.7 Chu trình Hamilton",
+   "name": "Hamilton",
+   "topic": "Chu trình Euler, Hamilton",
+   "summary": [
+    "Liet ke tat ca chu trinh Hamilton bat dau tai u (quay lui)",
+    "Khong co thi in 0; co thi in tung chu trinh, dong cuoi in so luong"
+   ],
+   "problem": "problems/TRR3007.md",
+   "solution": "solutions/TRR3007.cpp",
+   "algorithms": [
+    "2.3"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "CT.INP"
+    ],
+    "out": [
+     "CT.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "hamilton",
+   "keywords": "trr3007 3.7 chu trinh hamilton hamilton chu trinh euler, hamilton liet ke tat ca chu trinh hamilton bat dau tai u (quay lui) khong co thi in 0; co thi in tung chu trinh, dong cuoi in so luong"
+  },
+  {
+   "code": "TRR4001",
+   "title": "4.1 Cây khung",
+   "name": "Cay khung DFS BFS",
+   "topic": "Cây khung: DFS/BFS, Prim, Kruskal",
+   "summary": [
+    "Cay khung cua do thi vo huong bat dau tai s",
+    "t = 1: cay khung DFS; t = 2: cay khung BFS. Khong lien thong thi in 0"
+   ],
+   "problem": "problems/TRR4001.md",
+   "solution": "solutions/TRR4001.cpp",
+   "algorithms": [
+    "4.1",
+    "4.2"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "CK.INP"
+    ],
+    "out": [
+     "CK.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [],
+   "generator": "tree_ts",
+   "keywords": "trr4001 4.1 cay khung cay khung dfs bfs cay khung: dfs/bfs, prim, kruskal cay khung cua do thi vo huong bat dau tai s t = 1: cay khung dfs; t = 2: cay khung bfs. khong lien thong thi in 0"
+  },
+  {
+   "code": "TRR4004",
+   "title": "4.4 Cây khung",
+   "name": "Prim",
+   "topic": "Cây khung: DFS/BFS, Prim, Kruskal",
+   "summary": [
+    "Cay khung nho nhat bang Prim, bat dau tai s",
+    "Khong lien thong thi in 0"
+   ],
+   "problem": "problems/TRR4004.md",
+   "solution": "solutions/TRR4004.cpp",
+   "algorithms": [
+    "4.4"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "CK.INP"
+    ],
+    "out": [
+     "CK.OUT"
+    ]
+   },
+   "num_tests": 1,
+   "notes": [],
+   "generator": "prim",
+   "keywords": "trr4004 4.4 cay khung prim cay khung: dfs/bfs, prim, kruskal cay khung nho nhat bang prim, bat dau tai s khong lien thong thi in 0"
+  },
+  {
+   "code": "TRR4007",
+   "title": "4.7 Cây khung",
+   "name": "Kruskal",
+   "topic": "Cây khung: DFS/BFS, Prim, Kruskal",
+   "summary": [
+    "Cay khung nho nhat bang Kruskal, do thi cho bang danh sach canh co trong so",
+    "Khong lien thong thi in 0"
+   ],
+   "problem": "problems/TRR4007.md",
+   "solution": "solutions/TRR4007.cpp",
+   "algorithms": [
+    "4.3"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "CK.INP"
+    ],
+    "out": [
+     "CK.OUT"
+    ]
+   },
+   "num_tests": 1,
+   "notes": [
+    "Khi nhiều cạnh cùng trọng số, đáp án xét cạnh theo (w, u, v) tăng dần – đề không ghi rõ, hay bị sai thứ tự in cạnh."
+   ],
+   "generator": "kruskal",
+   "keywords": "trr4007 4.7 cay khung kruskal cay khung: dfs/bfs, prim, kruskal cay khung nho nhat bang kruskal, do thi cho bang danh sach canh co trong so khong lien thong thi in 0"
+  },
+  {
+   "code": "TRR5001",
+   "title": "5.1 Đường đi ngắn nhất",
+   "name": "Dijkstra",
+   "topic": "Đường đi ngắn nhất: Dijkstra, Bellman-Ford, Floyd",
+   "summary": [
+    "Duong di ngan nhat tu s den t bang Dijkstra (trong so khong am)",
+    "Khong co duong di thi in 0"
+   ],
+   "problem": "problems/TRR5001.md",
+   "solution": "solutions/TRR5001.cpp",
+   "algorithms": [
+    "3.1"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DN.INP"
+    ],
+    "out": [
+     "DN.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [
+    "Đề dùng 10000 cho 'không có cạnh'."
+   ],
+   "generator": "dijkstra",
+   "keywords": "trr5001 5.1 duong di ngan nhat dijkstra duong di ngan nhat: dijkstra, bellman-ford, floyd duong di ngan nhat tu s den t bang dijkstra (trong so khong am) khong co duong di thi in 0"
+  },
+  {
+   "code": "TRR5007",
+   "title": "5.7 Đường đi ngắn nhất",
+   "name": "Bellman Ford",
+   "topic": "Đường đi ngắn nhất: Dijkstra, Bellman-Ford, Floyd",
+   "summary": [
+    "Duong di ngan nhat tu s den t bang Bellman-Ford (co the co canh am)",
+    "Co chu trinh am thi in -1; khong co duong di thi in 0"
+   ],
+   "problem": "problems/TRR5007.md",
+   "solution": "solutions/TRR5007.cpp",
+   "algorithms": [
+    "3.2"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "BN.INP"
+    ],
+    "out": [
+     "BN.OUT"
+    ]
+   },
+   "num_tests": 2,
+   "notes": [
+    "Đề dùng 10000 cho 'không có cạnh'; có chu trình âm thì in -1."
+   ],
+   "generator": "bellman",
+   "keywords": "trr5007 5.7 duong di ngan nhat bellman ford duong di ngan nhat: dijkstra, bellman-ford, floyd duong di ngan nhat tu s den t bang bellman-ford (co the co canh am) co chu trinh am thi in -1; khong co duong di thi in 0"
+  },
+  {
+   "code": "TRR5016",
+   "title": "5.16 Đường đi ngắn nhất",
+   "name": "Floyd",
+   "topic": "Đường đi ngắn nhất: Dijkstra, Bellman-Ford, Floyd",
+   "summary": [
+    "Dung Floyd tim cap (u, v) co duong di ngan nhat dai nhat",
+    "Nhieu cap bang nhau thi lay cap nho nhat theo tu dien; khong co cap nao thi in 0"
+   ],
+   "problem": "problems/TRR5016.md",
+   "solution": "solutions/TRR5016.cpp",
+   "algorithms": [
+    "3.3"
+   ],
+   "io": {
+    "type": "file",
+    "in": [
+     "DN.INP"
+    ],
+    "out": [
+     "DN.OUT"
+    ]
+   },
+   "num_tests": 1,
+   "notes": [
+    "Đề dùng 10000 cho 'không có cạnh'."
+   ],
+   "generator": "floyd",
+   "keywords": "trr5016 5.16 duong di ngan nhat floyd duong di ngan nhat: dijkstra, bellman-ford, floyd dung floyd tim cap (u, v) co duong di ngan nhat dai nhat nhieu cap bang nhau thi lay cap nho nhat theo tu dien; khong co cap nao thi in 0"
+  }
+ ]
+}

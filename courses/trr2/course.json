@@ -1,0 +1,133 @@
+{
+  "id": "trr2",
+  "name": "Toán rời rạc 2 (TRR2) – Lý thuyết đồ thị",
+  "code_patterns": [
+    "TRR\\d{4}"
+  ],
+  "sources": {
+    "problems_md": "TRR2 Thuat toan/TRR2_CodePTIT_Problems.md",
+    "solutions_dir": "TRR2 CodePTIT Solutions",
+    "algorithms_dir": "TRR2 Thuat toan",
+    "theory_md": "Bộ thuật toán TRR2 (1).md"
+  },
+  "algorithm_overrides": {
+    "TRR2001": [
+      "1.1",
+      "1.5"
+    ],
+    "TRR2002": [
+      "1.3",
+      "1.5"
+    ],
+    "TRR2009": [
+      "1.1",
+      "1.4"
+    ],
+    "TRR2012": [
+      "1.3",
+      "1.4"
+    ],
+    "TRR2015": [
+      "1.7",
+      "1.6",
+      "2.1.2"
+    ],
+    "TRR2021": [
+      "1.8",
+      "1.4",
+      "1.1"
+    ],
+    "TRR2024": [
+      "1.8",
+      "1.4",
+      "1.3"
+    ],
+    "TRR2027": [
+      "1.9",
+      "1.4",
+      "1.1"
+    ],
+    "TRR2030": [
+      "1.9",
+      "1.4",
+      "1.3"
+    ],
+    "TRR3001": [
+      "2.1.1",
+      "2.2"
+    ]
+  },
+  "default_algorithms": {
+    "TRR10": [
+      "0"
+    ]
+  },
+  "topics": {
+    "TRR10": "Biểu diễn đồ thị (ma trận kề, danh sách cạnh, danh sách kề, ma trận liên thuộc, trọng số)",
+    "TRR20": "DFS/BFS: đường đi, liên thông, đỉnh trụ, cạnh cầu",
+    "TRR30": "Chu trình Euler, Hamilton",
+    "TRR40": "Cây khung: DFS/BFS, Prim, Kruskal",
+    "TRR50": "Đường đi ngắn nhất: Dijkstra, Bellman-Ford, Floyd"
+  },
+  "generators": {
+    "TRR1001": "rep_matrix_ud",
+    "TRR1002": "rep_matrix_ud",
+    "TRR1003": "rep_matrix_ud",
+    "TRR1012": "rep_matrix_d",
+    "TRR1013": "rep_matrix_d",
+    "TRR1014": "rep_matrix_d",
+    "TRR1004": "rep_edges_ud",
+    "TRR1005": "rep_edges_ud",
+    "TRR1006": "rep_edges_ud",
+    "TRR1015": "rep_edges_d",
+    "TRR1016": "rep_edges_d",
+    "TRR1017": "rep_edges_d",
+    "TRR1007": "rep_adjlist_ud",
+    "TRR1008": "rep_adjlist_ud",
+    "TRR1009": "rep_adjlist_ud",
+    "TRR1018": "rep_adjlist_d",
+    "TRR1019": "rep_adjlist_d",
+    "TRR1020": "rep_adjlist_d",
+    "TRR1010": "rep_wmatrix_ud",
+    "TRR1021": "rep_wmatrix_d",
+    "TRR1011": "rep_wedges_ud",
+    "TRR1022": "rep_wedges_d",
+    "TRR2001": "path_tuv",
+    "TRR2002": "path_tuv",
+    "TRR2009": "matrix_ud",
+    "TRR2012": "matrix_ud",
+    "TRR2015": "matrix_d",
+    "TRR2021": "matrix_ud",
+    "TRR2024": "matrix_ud",
+    "TRR2027": "matrix_ud",
+    "TRR2030": "matrix_ud",
+    "TRR3001": "euler_ud",
+    "TRR3004": "euler_d",
+    "TRR3007": "hamilton",
+    "TRR4001": "tree_ts",
+    "TRR4004": "prim",
+    "TRR4007": "kruskal",
+    "TRR5001": "dijkstra",
+    "TRR5007": "bellman",
+    "TRR5016": "floyd"
+  },
+  "extra_notes": {
+    "TRR4007": [
+      "Khi nhiều cạnh cùng trọng số, đáp án xét cạnh theo (w, u, v) tăng dần – đề không ghi rõ, hay bị sai thứ tự in cạnh."
+    ],
+    "TRR5001": [
+      "Đề dùng 10000 cho 'không có cạnh'."
+    ],
+    "TRR5007": [
+      "Đề dùng 10000 cho 'không có cạnh'; có chu trình âm thì in -1."
+    ],
+    "TRR5016": [
+      "Đề dùng 10000 cho 'không có cạnh'."
+    ]
+  },
+  "theory_notes": {
+    "0": "**Lưu ý cho bài CodePTIT:** đề TRR2 dùng **10000** làm \"không có cạnh\" trong ma trận trọng số. Lời giải chuẩn các bài đó đặt `INF = 10000` (đủ lớn vì trọng số ≤ 50, n ≤ 100). Nếu dùng `INF = 1e9` thì phải đổi 10000 → INF ngay sau khi nhập.",
+    "4.3": "**Lưu ý cho bài CodePTIT TRR4007:** đề cho **danh sách cạnh** `u v w` (code mẫu ở trên nhập ma trận). Khi nhiều cạnh cùng trọng số, đáp án xét theo (w, u, v) tăng dần.",
+    "4.5": "(Mục này không có file .cpp riêng: sửa từ [4.3_Kruskal.cpp](4.3_Kruskal.cpp) / [4.4_Prim.cpp](4.4_Prim.cpp).)"
+  }
+}
