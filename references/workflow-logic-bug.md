@@ -3,9 +3,12 @@
 Dùng khi SV hỏi "sai ở đâu", "sao test này sai". Mục tiêu: chỉ ra **bước đầu tiên** mà trạng thái chương trình của SV khác với trạng thái đúng, kèm input nhỏ chứng minh.
 
 ## Các bước
-1. **Tìm input làm sai, càng nhỏ càng tốt**
+0. **Đọc code trước.** Đối chiếu với đề, mã giả trong giáo trình và bảng `pitfalls.md`, rồi chạy tay test mẫu. Nếu đã thấy rõ bước sai đầu tiên → sang bước 4 báo cáo luôn, bỏ qua bước 1–3.
+
+1. **Chỉ khi đọc không ra lỗi** (hoặc SV báo "đúng test mẫu mà nộp vẫn sai"): tìm input làm sai, càng nhỏ càng tốt
    ```
-   python3 "$SKILL_DIR/scripts/run_tests.py" --problem <MÃ> --student <bai.cpp> --stress 500
+   python3 "$SKILL_DIR/scripts/run_tests.py" --problem <MÃ> --student <bai.cpp>              # test mẫu trước
+   python3 "$SKILL_DIR/scripts/run_tests.py" --problem <MÃ> --student <bai.cpp> --stress 300  # nếu test mẫu đều đúng
    ```
    - Ưu tiên test ngẫu nhiên đã được thu nhỏ (script tự thu nhỏ) hơn test mẫu nếu nó nhỏ hơn.
    - SV đưa sẵn test bị sai → dùng `--input <file>` để xác nhận và lấy output đúng từ lời giải chuẩn.
@@ -37,6 +40,6 @@ Dùng khi SV hỏi "sai ở đâu", "sao test này sai". Mục tiêu: chỉ ra *
 | Cây khung | Cạnh được xét, có được nhận không, `par[]` |
 
 ## Không làm
-- Không kết luận chỉ bằng đọc code khi chưa chạy được input minh chứng.
+- Không kết luận khi chưa có input minh chứng: chạy tay test mẫu là đủ nếu nó đã lộ lỗi; không cần chạy script chỉ để xác nhận điều đã thấy rõ.
 - Không liệt kê mọi khác biệt với lời giải chuẩn: chỉ lỗi **gây ra sai** (khác biệt về cách viết thuộc chế độ compare).
 - Không sửa luôn hộ nhiều lỗi một lúc: chỉ lỗi đầu tiên, chạy lại sau khi SV sửa rồi mới sang lỗi tiếp.

@@ -24,7 +24,7 @@ Giới hạn: SV nói "chỉ gợi ý", "đừng cho code", "em đang luyện th
 
 ## Khung câu trả lời
 1. **Kết luận 1 câu**: "Code bạn đúng 1/2 test mẫu; test ngẫu nhiên phát hiện sai ở bài có đường đi qua 2 đỉnh trung gian."
-2. **Bằng chứng**: input nhỏ nhất làm sai + mong đợi + code ra (lấy từ `run_tests.py`). Cắt gọn, không dán log dài.
+2. **Bằng chứng**: chạy tay test mẫu (vd "với test `5 / 0 1 1 0 1 / 1 1 0 1 1`, code in 4 phần tử, đáp án là 2"), hoặc input nhỏ nhất làm sai + mong đợi + code ra lấy từ `run_tests.py` nếu đã chạy. Cắt gọn, không dán log dài.
 3. **Gợi ý** đúng bậc.
 4. **Câu hỏi/việc tiếp theo** cho SV: "Bạn thử chạy tay input trên, in `d[]` sau mỗi vòng lặp xem nhãn của đỉnh 3 thay đổi lúc nào?"
 

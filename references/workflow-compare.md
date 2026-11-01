@@ -4,8 +4,8 @@ Dùng khi SV muốn biết cách làm của mình khác lời giải chuẩn ở
 
 ## Các bước
 1. Xác định bài, đọc đề, đọc lời giải chuẩn (`solutions/<mã>.cpp`) và code của SV.
-2. Chạy `run_tests.py --problem <MÃ> --student <bai.cpp> --stress 300` để biết sự khác biệt có **làm sai kết quả** hay không.
-3. So theo 6 trục, mỗi trục ghi: giống / khác / khác này có làm sai không (dựa trên kết quả chạy, không đoán).
+2. So sánh bằng cách **đọc** hai code theo các trục bên dưới. Chỉ chạy `run_tests.py --problem <MÃ> --student <bai.cpp>` (thêm `--stress 150` nếu test mẫu đều đúng) khi không chắc một khác biệt có **làm sai kết quả** hay không.
+3. So theo 6 trục, mỗi trục ghi: giống / khác / khác này có làm sai không (dựa trên chạy tay test mẫu hoặc kết quả script, không đoán).
 
    | Trục | Câu hỏi |
    |---|---|

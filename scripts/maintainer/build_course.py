@@ -24,10 +24,28 @@ PROBLEM_HDR = re.compile(r"^##\s+\d+\.\s+\(([A-Za-z0-9_]+)\)\s*(.*?)\s*$")
 SECTION_REF = re.compile(r"(?:muc|ap dung)\s+(\d+(?:\.\d+)*)", re.I)
 
 
+LATEX = [(r"\deg^+", "deg⁺"), (r"\deg^-", "deg⁻"), (r"\deg", "deg"), (r"\le", "≤"), (r"\ge", "≥"),
+         (r"\neq", "≠"), (r"\ne", "≠"), (r"\times", "×"), (r"\cap", "∩"), (r"\cup", "∪"), (r"\in", "∈"),
+         (r"\rightarrow", "→"), (r"\to", "→"), (r"\ldots", "…"), (r"\dots", "…"), (r"\cdot", "·"),
+         (r"\sum", "Σ"), (r"\infty", "∞"), (r"\{", "{"), (r"\}", "}")]
+
+
+def delatex(text):
+    """'$1 \\le u_i < v_i \\le n$' -> '1 ≤ u_i < v_i ≤ n'. Chat panels don't render LaTeX, and agents
+    copy the notation they read, so statements are stored as plain Unicode text."""
+    def conv(m):
+        s = m.group(1)
+        for k, v in LATEX:
+            s = re.sub(re.escape(k) + r"(?![A-Za-z])", v, s)
+        s = re.sub(r"([_^])\{([^{}]*)\}", r"\1\2", s)  # 2^{18} -> 2^18, c_{ij} -> c_ij
+        return s
+    return re.sub(r"\$([^$\n]+)\$", conv, text)
+
+
 def split_problems(md_text):
     """Return {code: (title, markdown)} from a '## N. (CODE) Title' statements file."""
     out, code, title, buf = {}, None, None, []
-    for line in md_text.splitlines():
+    for line in delatex(md_text).splitlines():
         m = PROBLEM_HDR.match(line)
         if m:
             if code:
